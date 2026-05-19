@@ -2,14 +2,14 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
+    url: "https://bowngroup.com/",
+    title: "Bowngroup",
+    description: "All about what the Bowns are getting up to on the internet.",
+    author: "Richard Bown",
+    profile: "https://richardwbown.com",
     ogImage: "default-og.jpg",
     lang: "en",
-    timezone: "Asia/Bangkok",
+    timezone: "Europe/Amsterdam",
     dir: "ltr",
   },
   posts: {
@@ -29,10 +29,9 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
-    { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "bluesky",   url: "https://bsky.app/profile/bownie.bsky.social" },
+    { name: "linkedin",  url: "https://www.linkedin.com/in/richard-bown/" },
+    { name: "instagram", url: "https://www.instagram.com/bownie/" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
